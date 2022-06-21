@@ -1,0 +1,377 @@
+@charset "utf-8";
+/* CSS Document */
+
+html,body{
+	margin: 0;
+	padding: 0;
+	width: 100%;height: 100%;
+	
+}
+#entete{
+	
+	margin: 0;padding: 0;
+	width: 100%;height: 50%;
+	position: relative;
+	overflow: hidden;
+	background-color: transparent;
+	z-index: 1;
+}
+.video_entete{
+	left: 0;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	z-index: 0;
+	object-fit: cover;
+	object-position: center;  
+}
+.nomsite{
+	font-size: 60px;
+	text-align: center;
+	margin: 0;
+	padding-top: 5%;
+	color: #FFF;
+	position: relative;
+	font-family: Scriptina,"Script MT Bold","Majalla";
+}
+#formauto{
+	position:relative;
+	border: 5px solid #FFF;
+	border-left: none;
+	border-right: none;
+	background-color: rgba(000,000,000,0.2);
+	margin-left: auto;
+	margin-right: auto;
+	width:70%;min-height: 10%;
+	text-align: center;
+	padding: 2%;
+}
+#motcle{
+	height: 30px;width:300px;
+	border: none;padding-left: 2px;
+	background-color: #CFC7C7;
+}
+.btfind{
+	height: 30px;width:300px;
+	border: none;background-color: blue;
+	color: #FFF;
+}
+#articles{
+	width: 90%;
+	margin-left:auto;
+	margin-right: auto;
+	padding: 2%;
+	vertical-align: middle;	
+}
+#auto{
+	border: 0px solid #999;
+	width: 150px;
+	min-height: 200px;
+	margin: 10px;
+	padding-left: 20px;
+	float: left;
+	color: white;
+	margin-bottom: 30px;
+	
+}
+#auto img{
+	margin: 5px;
+	width:130px;
+	height: 100px;
+}
+#articles b{
+	color: #989898;
+}
+a{
+	text-decoration: none;
+}
+#entete .login{
+	opacity: 0.8;
+	color: white;
+	padding: 14px 20px;
+	margin: 8px 0;
+	border: 2px solid blue;
+	border-right: none;
+	cursor:  pointer;
+	width: 5%;
+	right: 0;
+	position: absolute;
+	z-index: 10;
+}
+#entete .login:hover{
+	opacity: 1;
+	background-color: blue;
+	border: none;
+}
+
+
+
+#contrainer{
+	width: 400px;
+	margin: 0 auto;
+	margin-top: 10%;
+   
+}
+#contrainer h1
+{
+	width: 40%;
+	margin: 0 auto;
+	padding-bottom: 12px;
+}
+.formulaire{
+	
+	width: 100%;
+	background-image: url("IMAGES/backgroun.jpg");
+	padding: 30px;
+	box-shadow: 0 0 20px 0 rgba(0,0,0,0.2),0 5px 5px 0 rgba(0,0,0,0.25);
+}
+.zonetext{
+	background-color:white;
+	color: #000;
+	padding: 14px 20px;
+	margin: 8px 0 ;
+	border: none;
+	cursor: pointer;
+	width: 90%;
+}
+.submit{
+	background-color:blue;
+	color: white;
+	padding: 14px 20px;
+	margin: 8px 0 ;
+	border: none;
+	cursor: pointer;
+	width: 100%; 
+	font-weight: bold;
+}
+.oublie{
+	font-weight: bold;
+	color: white;
+}
+.submit :hover{
+	background-color: white;
+	color: blue;
+	border: 1px solid blue;
+}
+
+#globl{
+	width: 100%;
+	padding: 5px;
+	margin: 10px;
+	border-radius: 20px;
+	background-image: url("IMAGES/backgroun.jpg");
+}
+
+
+#globl #profil{
+	width: 20%;
+	padding: 10px;
+	border-radius: 20px;
+	vertical-align: middle;
+	text-align: center;
+	min-height: 100px;
+	display: inline-block;
+	box-shadow: 0 0 20px 0 rgba(0,0,0,0.2),0 5px 5px 0 rgba(0,0,0,0.25);
+}
+#globl #tableaubord{
+	box-shadow: 0 0 20px 0 rgba(0,0,0,0.2),0 5px 5px 0 rgba(0,0,0,0.25);
+	min-height: 100px;
+	display: inline-block;
+	width: 70%;
+	vertical-align: middle;
+	padding: 20px;margin: 5px;
+	border-radius: 20px;
+}
+
+table{
+	
+	caption-side: bottom;
+	border-radius: 20px;
+	
+}
+th,td{
+	border-radius: 10px;
+	border: none;
+	padding: 10px;
+}
+th{
+	border: none;
+	background-color: blue;
+	padding: 10px;
+}
+#conteur
+{
+	margin-left : 215px; 
+	width: 900px;
+}
+#title1
+{
+ font-family:  cursive; 
+ font-size: 80px;
+}
+header
+{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.P1
+{
+	border :0px;
+	border-radius: 10px;
+	width: 90px;
+	height: 50px;
+	background-color: blue;
+	float: left;
+	text-align: center;
+	color: white;
+    
+}
+.P1:hover{
+	background-color: white;
+	color: blue;
+	border: 3px solid blue;
+}
+.P2
+{
+	width: 10px;
+    height: 50px;
+    float: left;
+    color: white;
+}
+.P3
+{
+	border :0px;
+	border-radius: 10px;
+	width: 140px;
+	height: 50px;
+	background-color: blue;
+	float: left;
+	text-align: center;
+	color: white;
+}
+.P3:hover{
+	background-color: white;
+	color: blue;
+	border: 3px solid blue;
+}
+.P4
+{
+	width: 10px;
+    height: 50px;
+    float: left;
+    color: white;
+}
+.P5
+{
+	border :0px;
+	border-radius: 10px;
+	width: 140px;
+	height: 50px;
+	background-color: blue;
+	float: left;
+	text-align: center;
+	color: white;
+}
+.P5:hover{
+	background-color: white;
+	color: blue;
+	border: 3px solid blue;
+}
+.P6
+{
+	width: 10px;
+    height: 50px;
+    float: left;
+    color: white;
+}
+.P7
+{
+	border :0px;
+	border-radius: 10px;
+	width: 150px;
+	height: 50px;
+	background-color: blue;
+	float: left;
+	text-align: center;
+	color: white;
+}
+.P7:hover{
+	background-color: white;
+	color: blue;
+	border: 3px solid blue;
+}
+.P8
+{
+	width: 10px;
+    height: 50px;
+    float: left;
+    color: white;
+}
+.P9
+{
+	border :0px;
+	border-radius: 10px;
+	width: 140px;
+	height: 50px;
+	background-color: blue;
+	float: left;
+	text-align: center;
+    color: white;
+}
+.P9:hover{
+	background-color: white;
+	color: blue;
+	border: 3px solid blue;
+}
+.P10
+{
+	width: 10px;
+    height: 50px;
+    float: left;
+    color: white;
+}
+.P11
+{
+	border :0px;
+	border-radius: 10px;
+	width: 140px;
+	height: 50px;
+	background-color: blue;
+	float: left;
+	text-align: center;
+	color: white;
+}
+.P11:hover{
+	background-color: white;
+	color: blue;
+	border: 3px solid blue;
+}
+.w{
+	font-weight: bold;
+	margin-left: 40%;
+	border :0px;
+	border-radius: 20px;
+	width: 270px;
+	height: 35px;
+	background-color: #000E45;
+	float: none;
+	text-align: center;
+	color: white;
+	padding-top: 3px;
+	padding-bottom: 10px;
+	margin-top: 80px;
+	
+}
+footer
+{
+	background: black;
+	width: 100%;
+	height: 30%;
+	text-align: center;
+	color: white;
+	clear: left;
+	padding-top:20px; 
+	margin-top: 10px;
+}
+
+
